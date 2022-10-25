@@ -4,9 +4,11 @@ allow to do this.
 
 For users running Webex app, this script does the following:
 1. Uses an Integration to get the access and refresh token for a user. When the user adds the bot to the buddy list, the bot responds with a card. Clicking on that card will start the OAuth flow.
+ 
  <img width="423" alt="authenticate" src="https://user-images.githubusercontent.com/88320330/197786758-0b76f53e-0ee5-4d99-99f0-c63384c269a0.png">
   
 2. After authentication, another card is received by the user:
+
 ![Picture_1](https://user-images.githubusercontent.com/88320330/197786851-66901ed4-de48-4ec7-9c4a-035daf04f85b.png)
 
    
